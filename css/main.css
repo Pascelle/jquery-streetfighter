@@ -63,3 +63,21 @@ body {
 .ryu-cool {
 background-image: url('../images/ryu-cool.gif');
 }
+
+#first {
+	position: absolute;
+	right: 500px;
+	top: 30px;
+	width: 300px;
+	text-align: center;
+}
+
+#second {
+	position: absolute;
+	right: 150px;
+	top: 200px;
+	width: 300px;
+	text-align: center;
+
+
+}

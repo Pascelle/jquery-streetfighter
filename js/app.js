@@ -23,8 +23,19 @@ $(document).ready(function(){
     	$('.ryu-ready').show();
 		// ryu goes back to his ready position
 	});
-
-
+	.keydown(function(e) {
+		if (e.which === 88) {
+		$('.ryu-ready').hide();
+		$('ryu-cool').show();
+		}
+	})
+	.keyup(function(e) {
+		if (e.which === 88) {
+			$('.ryu-cool').hide();
+			$('.ryu-still').show();
+		}
+	}
+	
 	});
 
 function playHadouken () {
